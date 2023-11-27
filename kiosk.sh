@@ -7,5 +7,5 @@ start-pulseaudio-x11
 
 while true; do
   rm -rf ~/.{config,cache}/google-chrome/
-  google-chrome --kiosk --no-first-run --app 'http://thalexim.com.vn' --app 'http://thalexim.com'
+  google-chrome --kiosk --no-first-run 'http://thalexim.com.vn' 'http://thalexim.com'
 done
